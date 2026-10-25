@@ -2,80 +2,44 @@
 
 ### Senior Operational Engineer | DevOps | AWS | Cloud Operations
 
-I'm a technology professional with **13+ years of experience** in cloud operations, DevOps, production support, infrastructure management, and automation.
-
-I enjoy improving operational efficiency, automating repetitive tasks, troubleshooting complex production issues, and building reliable deployment workflows.
-
-Currently, I work with cloud-hosted environments, CI/CD pipelines, infrastructure automation, monitoring, and production incident management.
+I'm a technology professional with **13+ years of experience** in cloud operations, DevOps, production support, infrastructure management and automation. I enjoy automating repetitive work, troubleshooting complex production issues and building reliable deployment workflows.
 
 ### 🛠️ Technical Skills
 
-**☁️ Cloud Platforms**
-- AWS: EC2, S3, Lambda, DynamoDB, ECS, CloudWatch, OpenSearch, SNS, Athena
-- Azure DevOps
+| Area | Tools |
+|------|-------|
+| ☁️ **Cloud** | AWS (EC2, S3, Lambda, DynamoDB, ECS, CloudWatch, OpenSearch, SNS, Athena, Systems Manager), Azure DevOps |
+| 🚀 **CI/CD & IaC** | Azure Pipelines, Terraform, SaltStack, Git / Azure Repos |
+| 🐳 **Containers** | Docker, Kubernetes, Nomad, Consul, HAProxy |
+| 💻 **Scripting** | Python, Shell, basic PowerShell |
+| 📊 **Observability** | Kibana dashboards & watchers, SiteScope, XYMON, AppsOne APM |
+| 🖥️ **Systems & Data** | Linux (RHEL/CentOS), Windows Server, MySQL, MSSQL, PostgreSQL, REST APIs |
 
-**🚀 DevOps & CI/CD**
-- Azure Pipelines
-- Git & Azure Repos
-- Terraform
-- SaltStack
+### 📂 Featured Projects
 
-**🐳 Containers & Orchestration**
-- Docker
-- Kubernetes
-- Nomad
-- Consul
-- HAProxy
+Hands-on, generic reference projects that reflect how I work day to day.
 
-**💻 Scripting & Automation**
-- Python
-- Shell Scripting
-- Basic PowerShell
+| Project | What it shows |
+|---------|---------------|
+| [**aws-terraform-starter**](https://github.com/kirandrk712/aws-terraform-starter) | VPC, hardened EC2 (SSM, IMDSv2), encrypted S3, CloudWatch + SNS alerting with Terraform |
+| [**azure-pipelines-templates**](https://github.com/kirandrk712/azure-pipelines-templates) | Multi-stage QA → UAT → PRD pipeline with reusable templates and approval gates |
+| [**saltstack-app-deployment**](https://github.com/kirandrk712/saltstack-app-deployment) | Versioned, idempotent releases with atomic switch-over and easy rollback |
+| [**ops-automation-scripts**](https://github.com/kirandrk712/ops-automation-scripts) | Python and Bash tooling: health checks, log cleanup, service watchdog, EC2 inventory |
+| [**kubernetes-examples**](https://github.com/kirandrk712/kubernetes-examples) | Kustomize base + overlays with probes, HPA, PDB, NetworkPolicy and secure defaults |
+| [**kibana-watcher-examples**](https://github.com/kirandrk712/kibana-watcher-examples) | Alerts as code: CPU, error-spike and heartbeat watchers with a deploy script |
 
-**📊 Monitoring & Observability**
-- Kibana Dashboards & Watchers
-- SiteScope
-- XYMON
-- AppsOne APM
+### 🔧 What I Care About
 
-**🖥️ Operating Systems & Databases**
-- Linux (RHEL/CentOS)
-- Windows Server
-- MySQL
-- Microsoft SQL Server
-
-### 🔧 Areas of Interest
-
-- Cloud infrastructure and operations
-- CI/CD pipeline automation
-- Infrastructure as Code (IaC)
-- Containerization and orchestration
-- Production monitoring and troubleshooting
-- Python and Shell scripting
-- Site reliability and operational excellence
-
-### 📂 Projects
-
-I'm building practical examples and reusable resources around DevOps, cloud infrastructure, automation, and monitoring.
-
-Planned areas include:
-
-- AWS infrastructure automation using Terraform
-- CI/CD pipelines for application deployment
-- Python and Shell scripts for operational automation
-- Docker and Kubernetes deployment examples
-- Linux health checks and monitoring utilities
-
-### 📈 My Approach
-
-I believe in automating repetitive work, improving system reliability, documenting solutions, and continuously learning new technologies.
+- Reliable, repeatable deployments
+- Observability and fast incident resolution
+- Automating toil away
+- Clear documentation
 
 ### 🤝 Connect With Me
 
 - 📍 Bengaluru, India
-- 💼 LinkedIn: www.linkedin.com/in/ravi-kiran-68334878
-- 🐙 GitHub: https://github.com/kirandrk712
-- 📧 Email: kirandrk712@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/ravi-kiran-68334878)
+- 📧 kirandrk712@gmail.com
 
 ---
 
