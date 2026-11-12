@@ -17,21 +17,23 @@ I'm a technology professional with **13+ years of experience** in cloud operatio
 
 ### 📂 Featured Projects
 
-Hands-on, generic reference projects that reflect how I work day to day.
+Hands-on projects built around **real operational scenarios**, not just templates. They are generic reference projects (no employer code), and most have tests and CI.
 
-| Project | What it shows |
-|---------|---------------|
-| [**aws-terraform**](https://github.com/kirandrk712/aws-terraform) | VPC, hardened EC2 (SSM, IMDSv2), encrypted S3, CloudWatch + SNS alerting with Terraform |
-| [**azure-pipelines-templates**](https://github.com/kirandrk712/azure-pipelines-templates) | Multi-stage QA → UAT → PRD pipeline with reusable templates and approval gates |
-| [**saltstack-app-deployment**](https://github.com/kirandrk712/saltstack-app-deployment) | Versioned, idempotent releases with atomic switch-over and easy rollback |
-| [**ops-automation-scripts**](https://github.com/kirandrk712/ops-automation-scripts) | Python and Bash tooling: health checks, log cleanup, service watchdog, EC2 inventory |
-| [**kubernetes-examples**](https://github.com/kirandrk712/kubernetes-examples) | Kustomize base + overlays with probes, HPA, PDB, NetworkPolicy and secure defaults |
-| [**kibana-watcher-examples**](https://github.com/kirandrk712/kibana-watcher-examples) | Alerts as code: CPU, error-spike and heartbeat watchers with a deploy script |
+| Project | The scenario it covers |
+|---------|------------------------|
+| [**incident-response-lab**](https://github.com/kirandrk712/incident-response-lab) | Break a service on purpose (5xx spike, latency, memory leak, full disk) → monitor detects → runbook fix → auto-generated **postmortem** with MTTD/MTTR |
+| [**azure-pipelines-templates**](https://github.com/kirandrk712/azure-pipelines-templates) | A bad release on patch night: QA → UAT → PRD with **health gate and automatic rollback** |
+| [**saltstack-app-deployment**](https://github.com/kirandrk712/saltstack-app-deployment) | Versioned, idempotent releases with atomic switch-over and one-command rollback |
+| [**ops-automation-scripts**](https://github.com/kirandrk712/ops-automation-scripts) | "When X happens I reach for…": release gate, log analyzer, cert-expiry check, disk/health tools (tested) |
+| [**kubernetes-examples**](https://github.com/kirandrk712/kubernetes-examples) | Production-ready Kustomize base + **four reproducible failures** (OOMKilled, CrashLoop, ImagePullBackOff, stuck rollout) |
+| [**kibana-watcher-examples**](https://github.com/kirandrk712/kibana-watcher-examples) | Alerts as code, with a local Elastic stack and sample incidents that trigger each watcher |
+| [**aws-terraform-starter**](https://github.com/kirandrk712/aws-terraform-starter) | Hardened AWS baseline (SSM, IMDSv2, encrypted S3, CloudWatch alarms) + operating scenarios |
 
 ### 🔧 What I Care About
 
-- Reliable, repeatable deployments
+- Reliable, repeatable deployments, with a rollback plan
 - Observability and fast incident resolution
+- Blameless postmortems and runbooks
 - Automating toil away
 - Clear documentation
 
